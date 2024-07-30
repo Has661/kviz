@@ -1,0 +1,197 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+        background-color: blue;
+        min-height: 100vh;
+}
+
+
+
+
+.container {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            background: cyan;
+            margin-left: 15%;
+            margin-right: 15%;
+            border: 5px solid black;
+
+
+}
+
+
+.naslov1 {
+        font-size: 3rem;
+        color: whitesmoke;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+}
+
+.pmfslika {
+        border: 1px solid black;
+        border-radius: 90px;
+}
+
+
+.naslovpocetka {
+                font-size: 2.5rem;
+                color:  blue;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                margin-left: 0.5rem;
+}
+
+.pocetakigre {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.uputstvaigre {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 1rem
+}
+
+.projekat {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            padding: 1rem;
+}
+
+.odgovori {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        padding: 1rem;;
+        display: block;
+}
+
+.osvojiliste {
+                font-size: 2.5rem;
+                color:  blue;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                margin-bottom: 2rem;
+                text-align: center;
+}
+
+.vrijednost {
+                font-size: 2.5rem;
+                color:  blue;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                margin-top: 1rem;
+                text-align: center;
+}
+
+.ispistacnih {
+                font-size: 2.5rem;
+                color:  blue;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                margin-bottom: 2rem;
+                text-align: center;
+}
+
+.luster {
+
+                width: 300px;
+                display: block;
+                border: 5px solid gray;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+}
+
+#milionerce {
+                display: block;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+}
+
+.uputstvoinfo {
+                font-size: 2rem;
+                color: blue;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+}
+
+.infoprojekta {
+        font-size: 2rem;
+        color: blue;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+}
+
+.prava {
+        font-size: 1.5rem;
+        color: whitesmoke;
+        letter-spacing: 0.1em;
+        position: absolute;
+        margin-top: 80px;
+        left: 0;
+        margin-left: 0.5em;
+}
+
+.nagrada {
+
+        width: 300px;
+        display: block;
+        border: 5px solid gray;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+
+#dzokeri {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 0.5rem;
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+
+#pola {
+        height: 80px;
+        width: 200px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+    
+    #prijatelj {
+        height: 80px;
+        width: 200px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+    
+    #publika {
+        height: 80px;
+        width: 200px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
